@@ -5,7 +5,8 @@ Python script to easily make a video preview with ffmpeg
 ```bash
 python3 make_preview.py -f input.mp4 -hw cuda
 ```
-## More complicated example using QSV videocard(Intel) to get HEVC video with IOS support divided into 10 parts of 1 second
+## More complicated example using QSV videocard(Intel)
+To get HEVC video with IOS support divided into 10 parts of 1 second
 ```bash
 python3 make_preview.py -f input.mp4 -hw qsv -c hevc -s 10 -p 1
 ```
